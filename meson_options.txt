@@ -1,0 +1,9 @@
+option('build_test',
+        description : 'Build the eastl test program.',
+        type        : 'boolean',
+        value       : false)
+
+option('build_benchmark',
+        description : 'Build the eastl benchmark program.',
+        type        : 'boolean',
+        value       : false)
